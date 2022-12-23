@@ -4,26 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SNAKE</title>
+    <title>GAME: SNAKE</title>
     <style>
         body{
-            margin: 0px;
-            padding: 0px;
+            margin: 10px;
+            padding: 1em;
             display: flex;
-            flex-direction: column;
+            flex-direction: column; 
             justify-content: center;
             align-items: center;
+            background-color: black;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            
         }
 
         canvas{
-            box-shadow: rgb(162, 255, 0) 20px 10px 50px;
+            box-shadow: rgba(255, 85, 0, 0.603) 60px 30px 400px, -30px 20px 400px rgb(204, 79, 6) ;
+        }
 
+        h1{
+            color: whitesmoke ;
+            font-size: 50px;
         }
     </style>
 </head>
 <body>
-    <h1>Snake</h1>
+    <h1>Hungry Snake </h1>
     <canvas id = "game" width = "400" height = "400"></canvas>
-     <script src = "index.js"></script>
+    <script src = "index.js"></script>
 </body>
 </html> 
